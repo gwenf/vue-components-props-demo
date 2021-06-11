@@ -12,19 +12,6 @@
     </head>
     <body>
         <div id="app">
-            <div>
-                <!-- test #1 -->
-                <button>Toggle Box</button>
-                <div class="box"></div>
-            </div>
-
-            <hr />
-
-            <div>
-                <!-- test #2 -->
-                <h2 id="modeled-text">{{ message }}</h2>
-                <input v-model="greeting" id="modeled-text-input" />
-            </div>
         </div>
 
         <script src="https://unpkg.com/vue@next"></script>
@@ -38,12 +25,6 @@
                     }
                 },
                 methods: {
-                    toggleBox() {
-
-                    },
-                    greet(greeting) {
-                        this.message = greeting
-                    }
                 }
             })
 
